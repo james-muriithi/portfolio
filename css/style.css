@@ -62,18 +62,34 @@ body, html {
     background-color: var(--primary-color);
     right: calc(50% - 15px);
 }
+
 #about-me .desc {
     font-size: 19px;
 }
 
-#about-me .dot{
+#about-me .dot {
     height: 20px;
     width: 20px;
     background-color: var(--primary-color);
 }
 
+#about-me .btn-learn-more {
+    border: 1px solid var(--primary-color);
+    transition: all 0.2s linear;
+    color: var(--primary-color);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+#about-me .btn-learn-more:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
 @media screen and (max-width: 767px) {
-    #about-me .w-75{
+    #about-me .w-75 {
         width: 100% !important;
     }
 }
