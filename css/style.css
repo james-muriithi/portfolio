@@ -7,6 +7,11 @@ body, html {
     --secondary: #EDF7FA;
 }
 
+.rounded-top-3 {
+    border-top-left-radius: 0.3rem !important;
+    border-top-right-radius: 0.3rem !important;
+}
+
 /* hero section styles */
 
 .navbar-toggler, .btn:focus, .btn:active {
@@ -47,7 +52,7 @@ body, html {
 
 /* services section */
 
-#services {
+#projects, #services {
     background: var(--secondary);
 }
 
@@ -92,4 +97,10 @@ body, html {
     #about-me .w-75 {
         width: 100% !important;
     }
+}
+
+/* projects section */
+.project-title{
+    font-size: 17px;
+    font-weight: 900 !important;
 }
