@@ -50,3 +50,18 @@ body, html {
 #services {
     background: var(--secondary);
 }
+
+/* about me */
+
+#about-me .section-title>span::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 30px;
+    height: 5px;
+    background-color: var(--primary-color);
+    right: calc(50% - 15px);
+}
+#about-me .desc {
+    font-size: 17px;
+}
