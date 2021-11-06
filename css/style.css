@@ -39,3 +39,8 @@ body, html {
     color: var(--dark);
     background-color: transparent;
 }
+
+.social-icon{
+    height: 35px;
+    width: 35px;
+}
