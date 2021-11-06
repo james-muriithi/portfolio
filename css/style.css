@@ -1,3 +1,16 @@
 body,html {
     height: 100%;
+    font-family: 'Nunito', sans-serif;
+    --primary-color: #2374FC;
+    --white: #fefefe;
+}
+
+nav .btn-hire {
+    border: 1px solid var(--primary-color);
+    transition: all 0.2s linear;
+}
+
+nav .btn-hire:hover{
+    background-color: var(--primary-color);
+    color: var(--white) !important;
 }
