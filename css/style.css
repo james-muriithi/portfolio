@@ -1,16 +1,35 @@
-body,html {
+body, html {
     height: 100%;
     font-family: 'Nunito', sans-serif;
     --primary-color: #2374FC;
     --white: #fefefe;
+    --dark: #212529;
 }
 
-nav .btn-hire {
+/* hero section styles */
+
+#home .btn-resume, nav .btn-hire {
     border: 1px solid var(--primary-color);
     transition: all 0.2s linear;
 }
 
-nav .btn-hire:hover{
+#home .btn-resume:hover, nav .btn-hire:hover {
     background-color: var(--primary-color);
     color: var(--white) !important;
+}
+
+#home .title>span {
+    color: var(--primary-color);
+}
+
+#home .btn-hire {
+    background-color: var(--primary-color);
+    transition: all 0.2s linear;
+    color: var(--white);
+}
+
+#home .btn-hire:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--dark);
+    background-color: transparent;
 }
