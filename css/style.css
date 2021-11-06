@@ -104,3 +104,9 @@ body, html {
     font-size: 17px;
     font-weight: 900 !important;
 }
+
+/* footer */
+footer{
+    background: var(--primary-color);
+    color: var(--white);
+}
