@@ -7,6 +7,12 @@ body, html {
 }
 
 /* hero section styles */
+.navbar-toggler,
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
 
 #home .btn-resume, nav .btn-hire {
     border: 1px solid var(--primary-color);
