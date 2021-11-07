@@ -54,6 +54,11 @@ body, html {
     width: 35px;
 }
 
+@media screen and (max-width: 370px) {
+    .social-icons{
+        padding-bottom: 30px;
+    }
+}
 /* services section */
 
 #projects, #services {
